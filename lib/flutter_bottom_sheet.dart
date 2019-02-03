@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 class FlutterBottomSheet extends StatefulWidget{
 
+  String type;
+
 
   @override
   _FlutterBottomSheetState createState() => _FlutterBottomSheetState();
