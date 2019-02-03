@@ -1,3 +1,7 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 3rd Feb'19
 
-* TODO: Describe initial release.
+* Inital release
+
+## [0.1.1] - 3rd Feb'19
+
+* Added changlelog.md and readme.md files
