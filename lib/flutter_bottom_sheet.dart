@@ -4,8 +4,15 @@ import 'package:flutter/material.dart';
 
 class FlutterBottomSheet extends StatefulWidget{
 
-  String type;
+  final String type;
+  final BuildContext context;
+  final Widget widget;
 
+  FlutterBottomSheet({
+    this.type,
+    this.context,
+    this.widget
+  });
 
   @override
   _FlutterBottomSheetState createState() => _FlutterBottomSheetState();
@@ -14,7 +21,11 @@ class FlutterBottomSheet extends StatefulWidget{
 class _FlutterBottomSheetState extends State<FlutterBottomSheet>{
   @override
   Widget build(BuildContext context) {
-
+    return new RaisedButton(
+      onPressed: () {
+        showModalBottomSheet(context: widget.context, builder: (builder){ return widget.widget; });
+      },
+    );
   }
 
 }

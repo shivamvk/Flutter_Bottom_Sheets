@@ -2,13 +2,13 @@
 
 A flutter package to create bottom sheets, both persistent and modal, with both material and cupertino designs.
 
-## Getting Started
+Note: This plugin is still under development and some functionalities might not work properly. [Pull Requests](https://github.com/shivamvk/Flutter_Bottom_Sheets/pulls) are welcomed.
 
-This project is a starting point for a Dart
-[package](https://flutter.io/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Installation
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+* Add the dependency flutter_bottom_sheet : in your pubspec.yaml file.
+* Import the package 'import 'package:flutter_bottom_sheet/flutter_bottom_sheet.dart';'.
+
+## Issue
+
+* To raise an issue please go to [issues](https://github.com/shivamvk/Flutter_Bottom_Sheets/issues/new).
